@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+        <head>
+         <title>Assignment 1 - INFO 253A Web Architecture</title>
+          <link rel="stylesheet" href="style.css" type="text/css">
+        </head>
+        <body>
+          <h1>Analytics Page</h1>
+          
+          <h2>Summary</h2>
+          <ul style="font-size:12px">
+            <li id="tc">Tasks Created: </li>
+            <li id="td">Tasks Deleted: </li>
+            <li id="te">Tasks Edited: </li>
+          </ul>
+
+          <h2>Top 5 Tags</h2>
+          <ol id="t5t", style="font-size:12px"> 
+          </ol>
+          
+          <h2>Summary by user</h2>
+          
+          <table id="sumByU", class="gridview">
+              <tr>
+                <th>Name</th>
+                <th>Tasks Created</th>
+                <th>Tasks Deleted</th>
+                <th>Tasks Edited</th>
+                <th>Top 5 Tags (name, count, percentage)</th>
+              </tr>
+          </table>
+
+          <script src="script.js"></script> 
+        </body>
+</html>
